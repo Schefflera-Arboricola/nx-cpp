@@ -1,0 +1,8 @@
+build/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.so
+CMakeUserPresets.json
+.DS_Store
