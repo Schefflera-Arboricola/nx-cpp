@@ -2,8 +2,6 @@
 
 A small [NetworkX backend](https://networkx.org/documentation/stable/reference/backends.html) written in C++20.
 
-I maintain [nx-parallel](https://github.com/networkx/nx-parallel), which is a pure Python backend, and I wanted to see what it takes to write one in C++. This is a weekend-style experiment with only 2 algorithms, not something to depend on.
-
 ```py
 >>> import networkx as nx
 >>> G = nx.karate_club_graph()
